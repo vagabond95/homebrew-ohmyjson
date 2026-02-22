@@ -1,6 +1,6 @@
 cask "ohmyjson" do
-  version "0.3.1"
-  sha256 "4eb8dd820709fc4890997ac41b45110ac9999b83e910f62ee732a4dd29e71a99"
+  version "0.3.2"
+  sha256 "3af33f09ce70df2b55519830926d6dbafedb35d1a8269d266ef10ada3e0f6edf"
 
   url "https://github.com/vagabond95/OhMyJson/releases/download/v#{version}/OhMyJson_v#{version}.dmg"
   name "OhMyJson"
