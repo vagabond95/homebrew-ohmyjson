@@ -11,6 +11,10 @@ cask "ohmyjson" do
 
   app "OhMyJson.app"
 
+  postflight do
+    system "open", "#{appdir}/OhMyJson.app"
+  end
+
   zap trash: [
     "~/Library/Preferences/vagabond95.OhMyJson.plist",
   ]
